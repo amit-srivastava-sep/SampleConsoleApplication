@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Authors>chrisK00</Authors>
+    <Description>Library for Console apps with prettier and easier experience with output and input parsing/validating. Includes a Console table (rows and columns), Input helper and a console output class. Beginner friendly and compatible with Dependency Injection</Description>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/chrisK00/PrettyConsoleHelper</RepositoryUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageTags>Parser, ConsoleParser, CMDParser, ConsoleTable, console table, PrettyConsoleOutput, Input helper, console output, Input, Output, InputValidation, PrettyOutput, Table, OutputHelper, InputHelper, Console, beginner, dependency injection</PackageTags>
+    <Version>1.1.1</Version>
+    <PackageReleaseNotes>add select enum to interface. ability to easily specify a format for select list items. place static instances inside the interfaces</PackageReleaseNotes>
+    <PackageId>PrettyConsoleHelper</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
